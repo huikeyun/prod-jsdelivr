@@ -1,6 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "https://cdn.jsdelivr.net/$1" },
+  "version": 2,
+  "routes": [
+      {"src": "/(.*)","dest": "https://cdn.jsdelivr.net/$1"}
   ]
 }
-
