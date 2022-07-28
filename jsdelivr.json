@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+      {"src": "/(.*)","dest": "https://www.jsdelivr.com/$1"}
+  ]
+}
